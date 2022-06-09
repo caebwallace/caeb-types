@@ -10,9 +10,7 @@ This dependency shares standard interfaces for all CAEB tools.
 
 #### IStreamTicker
 
-```
-import { IStreamTickerCandle } from './IStreamTickerCandle';
-
+```ts
 export interface IStreamTicker {
     provider: string;
     baseAsset: string;
