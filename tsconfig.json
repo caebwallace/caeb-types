@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "declaration": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "outDir": "./dist",
+        "baseUrl": "src",
+        "rootDirs": ["./src"],
+        "paths": {
+            "@interfaces/*": ["./interfaces/*"]
+        }
+    },
+    "include": ["src"],
+    "exclude": ["./node_modules/**/*", "./__mocks__/**/*", "./src/__mocks__/**/*", "./dist/*", "./docs/**/*"]
+}
