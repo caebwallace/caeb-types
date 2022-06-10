@@ -1,6 +1,6 @@
 {
     "name": "caeb-types",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Apps Interfaces by Caeb Wallace",
     "main": "dist/index.js",
     "scripts": {
