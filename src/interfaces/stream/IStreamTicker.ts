@@ -5,7 +5,7 @@ export interface IStreamTicker {
     baseAsset: string;
     quoteAsset: string;
     interval: number;
-    lastUpdate: number;
+    time: number;
     new: boolean;
     candle: IStreamTickerCandle;
 }
