@@ -5,6 +5,7 @@ export enum ICandleChartIntervalKeys {
     ONE_HOUR = 'ONE_HOUR',
     FOUR_HOURS = 'FOUR_HOURS',
     ONE_DAY = 'ONE_DAY',
+    ONE_WEEK = 'ONE_WEEK',
 }
 
 export enum ICandleChartIntervalInSeconds {
@@ -14,4 +15,5 @@ export enum ICandleChartIntervalInSeconds {
     ONE_HOUR = 3600,
     FOUR_HOURS = 14400,
     ONE_DAY = 86400,
+    ONE_WEEK = 86400 * 7,
 }
