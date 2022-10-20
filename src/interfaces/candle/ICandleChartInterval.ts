@@ -29,3 +29,19 @@ export enum ICandleChartIntervalInSeconds {
     ONE_DAY = 86400,
     ONE_WEEK = 86400 * 7,
 }
+
+export enum ICandleChartIntervaLabels {
+    ONE_MINUTE = 'm1',
+    THREE_MINUTES = 'm3',
+    FIVE_MINUTES = 'm5',
+    FIFTEEN_MINUTES = 'm15',
+    THIRTY_MINUTES = 'm30',
+    ONE_HOUR = 'H1',
+    TWO_HOURS = 'H2',
+    FOUR_HOURS = 'H4',
+    SIX_HOURS = 'H6',
+    EIGHT_HOURS = 'H8',
+    TWELVE_HOURS = 'H12',
+    ONE_DAY = 'D1',
+    ONE_WEEK = 'W1',
+}
